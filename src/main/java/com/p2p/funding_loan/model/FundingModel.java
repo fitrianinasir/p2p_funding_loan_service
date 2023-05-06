@@ -25,6 +25,10 @@ public class FundingModel {
     @Column(name="id_product")
     private Integer idProduct;
 
+    @Column(name="id_payment_borrower")
+    private Integer idPaymentBorrower;
+    @Column(name="id_payment_lender")
+    private Integer idPaymentLender;
     @Column(name="title")
     private String title;
 

@@ -22,7 +22,8 @@ public class FundingController {
 
     @PostMapping("create")
     @ResponseStatus(HttpStatus.OK)
-    public FundingModel addLender(@RequestBody FundingModel fundingModel){
+    public FundingModel addFunding(@RequestBody FundingModel fundingModel){
+
         return fundingRepository.save(fundingModel);
     }
 

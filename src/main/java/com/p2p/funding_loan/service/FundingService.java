@@ -24,6 +24,7 @@ public class FundingService implements IFundingService{
     }
     @Override
     public void insert(FundingModel fundingModel){
+
         fundingRepository.save(fundingModel);
     }
 
